@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+}
+@font-face{
+  font-family: myfont;
+  src: url(font.otf);}
+.tag {
+  color: black;
+  width: 100%;
+  padding: 20px;
+  font-size: larger;
+    font-family: myfont;
+    position: fixed;
+}
+.tag span {
+color: black ;
+margin-left: 50rem;
+margin-right: 1rem;
+word-spacing: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  padding: 7rem 0;
+  place-content: center;}
+
+  .grow {
+    font-size: 5rem;
+    font-weight: 800;
+    color: black;
+    margin-left: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.image {
+    display: grid;
+    place-content: end;
+}
+
+img {
+    width: 40rem;
+    height: 30rem;
+    margin-top: -20rem;
+    margin-left: -2rem;
+   
+}  
+.AB img {
+  width: 30rem;
+  height:30rem ;
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+
+.TX {
+  display: flex;
+  justify-content: center;
+  margin-left: -3rem;
+  margin-top: -30rem;
+}
+.WR {
+  margin-top: 1.25rem;
+  margin-left: 13rem;
+}
+.HI {
+  margin-left: 20rem;
+}
+span {
+  color: red;
+}
+.PO { 
+  margin-top: 30rem;
+  margin-left: 2rem ;
+}
+.SEC { font-size: 3rem;
+  font-weight: 600;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+            
+  column-count:2;
+}
+.box-child > img{
+  width: 35rem;
+  height: 35rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.IN {
+  font-size: 3rem;
+  font-weight: 600;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 7rem;
+  margin-left: 2rem;
+}
